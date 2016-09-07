@@ -1,0 +1,49 @@
+.seperate{
+        padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.vertical-seperater{
+        border-right: 1px solid #ccc;
+}
+
+.btn-default{
+        min-width: 120px;
+        padding: 12px;
+}
+
+.center{
+        text-align: center;
+}
+
+.vertical{
+        display: block
+}
+
+.vertical input[type=radio]{
+        margin: 6px;
+}
+
+.img-responsive{
+        margin: 0 auto;
+        width: 55%;
+}
+
+.h-space{
+        margin: 20px 0 20px 0;
+}
+
+.error-row{
+        background-color: #ff4c4c;
+}
+
+.do-not-show{
+        display: none;
+}
+
+.progress{
+    height: 10px;
+    margin-bottom: 10px;
+}
