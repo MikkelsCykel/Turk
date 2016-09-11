@@ -31,8 +31,8 @@ class infrastructure:
                     'ORDER BY rand() '\
                     'LIMIT %d;'%(worker_id, no_rnd_img)
         set_img = self.format_response(self.dbuser.query(query))
-        set_img.append(set_gold)
-        return set_img
+        set_img = set_img + set_gold
+        return shuffle(set_img)
 
     def select_rnd_gold(self, worker_id, no_gold_img):
         query = 'SELECT i.ImgId, i.URL, i.IsGold, Count(w.WorkerId) views FROM Images i '\
